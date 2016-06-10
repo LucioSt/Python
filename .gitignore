@@ -1,0 +1,16 @@
+$ cat .gitignore
+
+# Ignorar arquivos específicos
+.DS_Store
+.Python
+
+# Use curingas como
+*~
+*.swp
+
+# Ignorar todos os diretórios e arquivos em um diretório.
+__pycache__/
+tmp/**/* 
+bin/
+lib/
+include/
