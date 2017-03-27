@@ -1,3 +1,8 @@
+#!/usr/bin/env python
+#
+# This python file contains class exercises
+#
+#
 
 class SerVivo(object):
     def idade(self):
