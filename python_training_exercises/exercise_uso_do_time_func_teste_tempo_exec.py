@@ -1,3 +1,6 @@
+#!/usr/bin/env python
+# Time func user exercise 
+
 import time
 from time_func import clock
 
