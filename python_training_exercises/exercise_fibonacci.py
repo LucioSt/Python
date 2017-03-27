@@ -1,8 +1,9 @@
-"""
+#!/usr/bin/env python
+#
+# Fibonacci using the decorator @ functools.lru_cache ()
+# Technique of memoization, avoiding to repeat processing in arguments already used previously.
+#
 
-fibonacci usando o decorador @functools.lru_cache() Técnica de memoização, evitando repetir processamento em argumentos já usados anteriormente.
-
-"""
 
 import functools
 import sys
