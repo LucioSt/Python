@@ -1,6 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
-# Simple software that translates subtitles from a movie
+# Simple software that translates subtitles from a movie using Google Translate's Translate API
 
 import goslate
 
