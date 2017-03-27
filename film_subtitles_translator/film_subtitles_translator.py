@@ -1,5 +1,6 @@
 #!/usr/bin/python
 # -*- coding: utf-8 -*-
+# Simple software that translates subtitles from a movie
 
 import goslate
 
@@ -26,5 +27,5 @@ try:
         		#print(limpa)
     f.close()
 except IOError:
-    print('Não foi possível abrir arquivo')
+    print('Could not open file!')
     sys.exit(1)
