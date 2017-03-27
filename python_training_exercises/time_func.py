@@ -1,19 +1,17 @@
 # -*- coding: utf-8 -*-
+# 
+# Calcula o tempo de execução da função decorada
+# 
+# Uso:
+# 
+# @clock
+# def func_teste(x):
+#     print('x')
+# 
+# ----------------------------------------
+# 0.12813115s - snooze(0.123) -> None
+# ----------------------------------------
 
-"""
-Calcula o tempo de execução da função decorada
-
-Uso:
-
-@clock
-def func_teste(x):
-    print('x')
-
-----------------------------------------
-0.12813115s - snooze(0.123) -> None
-----------------------------------------
-
-"""
 import time
 import functools
 
